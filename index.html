@@ -11,7 +11,7 @@
     <header>
         <h1>Untracked file vs Tracked file</h1>
     </header>
-
+    <!--- I choose to differentiate between untracked and tracked files. However, in my opinion, if an untracked file provides no clear benefit to the user, this distinction might not be necessary.--->
     <main>
         <p>Accessing a Sketch file on Abstract from a branch other than your current branch results in an <b>Untracked file</b> being created on the platform. 
         This happens because the file exists in the project you are working on, but it is not committed to your current branch.
@@ -37,13 +37,15 @@
         <ul>
             <li>Select a commit to view. In the file preview, choose the file and then select <b>Open Untracked</b>.</li>
         </ul>
-    
+        <!---I chose to combine the process of viewing untracked files, as splitting it was somewhat confusing, especially since the initial steps are the same.
+            I placed the note at the end because I consider it a product 'known issue' and prefer not to distract the reader's attention at the beginning of the article.--->
         <div style="border-left: 4px solid #f39c12; background-color: #fdf5e6; padding: 10px; margin-bottom: 15px;">
             <strong>Note:</strong> Abstract currently does not support making changes in an untracked file. To make changes, it's recommended to create a branch and commit the changes for a merge.
         </div>
     </main>
     
-
+    <!---Additionally, if the platform adheres to the Git flow, untracked files should either be committed within a branch or result in a divergent branch.
+        However, I encountered a plugin issue that prevented me from linking Sketch and Abstract, so the exact behavior remains unclear to me.-->
 
     
     
