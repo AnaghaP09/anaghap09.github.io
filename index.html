@@ -12,17 +12,39 @@
         <h1>Untracked file vs Tracked file</h1>
     </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
-
     <main>
-        <h2>Main Content Area</h2>
-        <p>This is where your main content goes.</p>
+        <p>Accessing a Sketch file on Abstract from a branch other than your current branch results in an <b>Untracked file</b> being created on the platform. 
+        This happens because the file exists in the project you are working on, but it is not committed to your current branch.
+        In contrast, a Sketch file that has been worked on and committed in your current branch is considered a <b>Tracked file</b>.</p>
+    
+        <h2>Accessing an Untracked File</h2>
+        <p>On Abstract, accessing an untracked file only allows you to view the file. You can encounter an untracked file in the following situations:</p>
+        <ul>
+            <li>Viewing a file on the main branch without creating a new branch.</li>
+            <li>Viewing a file on a contributor's branch without creating your own child branch.</li>
+            <li>Viewing a file from a previous commit on the main branch, a contributor's branch, or your own branch.</li>
+            <li>Viewing a file in your current branch without the latest changes.</li>
+            <li>Accessing a file on any branch, including the main branch, or from a previous commit, to copy and paste elements into a different file.</li>
+        </ul>
+    
+        <h3>Viewing an Untracked File</h3>
+        <ol>
+            <li>Open the Abstract desktop app.</li>
+            <li>Select <b>Project</b> > <b>Main</b>.</li>
+            <li>Select <b>Files</b>, choose the <code>.sketch</code> file you want to view, and then select <b>Edit in Sketch</b> > <b>Open Untracked</b>.</li>
+            <p>Optionally, select <b>Commits</b>:</p>
+            <li>Select a commit to view. In the file preview, choose the file and then select <b>Open Untracked</b>.</li>
+        </ol>
+    
+        <div style="border-left: 4px solid #f39c12; background-color: #fdf5e6; padding: 10px; margin-bottom: 15px;">
+            <strong>Note:</strong> Currently, Abstract does not support changes in an untracked file. If you need to make changes to a file, it is recommended to create a branch and then commit the changes for a merge.
+        </div>
     </main>
+    
 
+
+    
+    
     <footer>
         <p>&copy; 2024 Anagha. All rights reserved.</p>
     </footer>
